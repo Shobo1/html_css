@@ -64,10 +64,24 @@ main{
 
 @media screen and (max-width:768px) {
 .step-box {
-padding: 20px;
-margin: 50px auto;
-width: 90%;
+  float: none;
+  margin: 0 auto;
+  width: 90%;
 }
+.step-box:nth-child(1){
+  margin-top: 50px;
+}
+
+.step-box:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.step-box:nth-child(3){
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 main{
   width: 100%;
 }
